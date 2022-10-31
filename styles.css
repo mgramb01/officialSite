@@ -1,5 +1,5 @@
 body {
-    color: #40514E;
+    color: #395144;
     margin: 0%;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -11,20 +11,20 @@ h1 {
     line-height: 3;
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    color: #66BFBF;
+    color: #AA8B56;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #66BFBF;
+    color: #AA8B56;
     font-weight: normal;
     padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    color: #4E6C50;
 }
 
 p {
@@ -32,26 +32,26 @@ p {
 }
 
 hr {
-    border: dotted #eaf6f6 6px;
+    border: dotted #AA8B56 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
 }
 
 a {
-    color: #11999E;
+    color: #4E6C50;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
 }
 
 a:hover {
-    color: #EAF6F6;
+    color: #AA8B56;
     text-decoration: underline;
 }
 
 .top-container {
-    background-color: #BCCEF8;
+    background-color: #395144;
     position: relative;
     padding-top: 100px;
 }
@@ -61,8 +61,8 @@ a:hover {
 }
 
 .bottom-container {
-    color: #11999E;
-    background-color: #66BFBF;
+    color: #4E6C50;
+    background-color: #AA8B56;
     padding: 50px 0 20px;
 }
 
@@ -93,6 +93,12 @@ a:hover {
 .photography-skill {
     width: 25%;
     float: right;
+    margin-left: 30px;
+}
+
+.gamedev-skill {
+    width: 25%;
+    float: left;
     margin-left: 30px;
 }
 
@@ -150,13 +156,17 @@ a:hover {
     clear: right;
 }
 
+.gamedev-skill-description {
+    clear: left;
+}
+
 .btn {
     background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    background-image: -webkit-linear-gradient(top, #11cdd4, #4E6C50);
+    background-image: -moz-linear-gradient(top, #11cdd4, #4E6C50);
+    background-image: -ms-linear-gradient(top, #11cdd4, #4E6C50);
+    background-image: -o-linear-gradient(top, #11cdd4, #4E6C50);
+    background-image: linear-gradient(to bottom, #11cdd4, #4E6C50);
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
